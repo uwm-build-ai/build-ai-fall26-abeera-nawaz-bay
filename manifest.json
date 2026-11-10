@@ -80,5 +80,40 @@
     "note": "My Adoption Day app with the campus walk map, live weather forecast, and author information."
    }
   ]
+ },
+ "my_brief": {
+  "sha": "6323fa0afa31e49ab47297d7b77f8ffa221e3712",
+  "entry": "module_08/app.md",
+  "files": [
+   "module_08/app.md",
+   "module_08/welcome.md",
+   "module_08/zim.yaml",
+   "module_08/pitch.yaml",
+   "module_08/map.md",
+   "module_08/features.yaml",
+   "module_01/cv.md"
+  ],
+  "by": "abeera-nawaz",
+  "engine": "3f8db9c",
+  "at": "2026-11-10T20:25:39.074Z",
+  "history": [
+   {
+    "sha": "6323fa0afa31e49ab47297d7b77f8ffa221e3712",
+    "at": "2026-11-10T20:25:39.074Z",
+    "entry": "module_08/app.md",
+    "engine": "3f8db9c",
+    "parts": [
+     "import",
+     "persona",
+     "pitch",
+     "runner",
+     "dataset",
+     "datagrid",
+     "tabs"
+    ],
+    "todo": 0,
+    "note": "I changed my app to study buddy"
+   }
+  ]
  }
 }
