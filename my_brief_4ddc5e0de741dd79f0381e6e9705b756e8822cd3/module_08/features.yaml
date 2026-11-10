@@ -1,0 +1,43 @@
+- so_that: >-
+    Lina can ask for help immediately when she gets stuck on an assignment
+    instead of wasting time searching online.
+  as_a: college  student
+  headline: Instant Help Form
+  i_want: >-
+    A quick help request form where students select their course and describe
+    their problem.
+  value_why: Enables fast requests, low‑code, easy validation.
+  business_value: 75
+  tech_note: >-
+    comment: Use low‑code form component with dropdown and multiline field.;
+    advice: Validate inputs client‑side, store in HelpRequests dataset.;
+    suggestion: Add optional urgency flag for faster mentor routing.
+- so_that: >-
+    Lina can find an available qualified peer mentor within 10 minutes so she
+    can continue studying.
+  as_a: college  student
+  headline: Smart Mentor Matching
+  i_want: >-
+    🤖 AI-powered matching that connects students with available mentors based
+    on course and schedule.
+  value_why: Quick matches, but bias risk reduces confidence.
+  business_value: 78
+  tech_note: >-
+    comment: Leverage AI agent to score mentor availability and expertise.;
+    advice: Cache matching results for five minutes to reduce API calls.; risk:
+    AI bias may mis‑match students, causing frustration.
+- so_that: >-
+    Lina can receive help from a qualified peer mentor and understand difficult
+    topics faster.
+  as_a: college  student
+  headline: Live Tutor Acceptance
+  i_want: >-
+    👤 A mentor acceptance and live tutoring feature where the peer mentor
+    accepts the request and helps the student.
+  value_why: Direct tutoring, logs data, no major risks.
+  business_value: 80
+  tech_note: >-
+    comment: Create mentor acceptance screen with accept/decline buttons.;
+    advice: Trigger live chat session via embedded video component after
+    acceptance.; suggestion: Log tutoring duration for future performance
+    analytics.
